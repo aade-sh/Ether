@@ -1,6 +1,6 @@
-import { LinkGroup } from "../Links";
+import { LinkGroup } from "../lib/Links";
 import InputGroup from "./InputGroup";
-import { Component } from "./settingsTypes";
+import { type Component } from "./settingsTypes";
 
 type LinkGroupProps = {
   wrapperEl: HTMLElement;

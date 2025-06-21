@@ -1,14 +1,14 @@
-import { StringKeyObj } from "../../types/interfaces";
+import { type StringKeyObj } from "../types/interfaces";
 import THEMES from "../data/THEMES";
-import DomRender from "../DomRender";
-import { getImage, ImageState, refreshImage, saveImageState } from "../Image";
+import DomRender from "../lib/DomRender";
+import { getImage, type ImageState, refreshImage, saveImageState } from "../lib/Image";
 import {
   getTheme,
   refreshTheme,
   saveTheme,
-  Theme,
+  type Theme,
   THEME_LS_KEY,
-} from "../Theme";
+} from "../lib/Theme";
 import InputGroup from "./InputGroup";
 import SettingsSection, {
   SettingsSectionWithChildren,

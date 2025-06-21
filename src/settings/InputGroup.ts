@@ -1,5 +1,5 @@
-import { StringKeyObj } from "../../types/interfaces";
-import { Component } from "./settingsTypes";
+import { type StringKeyObj } from "../types/interfaces";
+import { type Component } from "./settingsTypes";
 
 type InputGroupProps = {
   wrapperEl: HTMLElement;

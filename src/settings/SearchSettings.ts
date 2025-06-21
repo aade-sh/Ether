@@ -1,14 +1,14 @@
 import {
-  CustomSearch,
+  type CustomSearch,
   CUSTOM_SEARCH_DETAILS_LS_KEY,
   refreshSearch,
   saveCustomSearch,
   saveSearchEngine,
-  SearchEngine,
+  type SearchEngine,
   SEARCH_LS_KEY,
-} from "../Search";
+} from "../lib/Search";
 import { SettingsSectionWithChildren } from "./SettingsSection";
-import { Component } from "./settingsTypes";
+import { type Component } from "./settingsTypes";
 import InputGroup from "./InputGroup";
 
 export default function initSearchSettings(

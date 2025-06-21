@@ -1,5 +1,5 @@
 import { z } from "zod";
-import THEMES from "./data/THEMES";
+import THEMES from "../data/THEMES";
 
 export const IMAGE_LS_KEY = "image";
 

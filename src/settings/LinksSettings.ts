@@ -1,13 +1,13 @@
 import {
   Link,
-  AllLinkGroups,
+  type AllLinkGroups,
   LINK_COUNT,
   LINK_GROUP_COUNT,
   refreshLinks,
   saveLinks,
   LinkGroup,
   LINKS_LS_KEY,
-} from "../Links";
+} from "../lib/Links";
 import LinkEditorGroup from "./LinkGroup";
 import { SettingsSectionWithChildren } from "./SettingsSection";
 

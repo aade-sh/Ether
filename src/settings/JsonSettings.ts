@@ -1,19 +1,19 @@
 import {
   IMAGE_LS_KEY,
-  ImageState,
+  type ImageState,
   refreshImage,
   saveImageState,
-} from "../Image";
-import { KEYBINDS_LS_KEY, refreshKeybinds, saveKeybinds } from "../KeyBinds";
-import { LINKS_LS_KEY, refreshLinks, saveLinks } from "../Links";
+} from "../lib/Image";
+import { KEYBINDS_LS_KEY, refreshKeybinds, saveKeybinds } from "../lib/KeyBinds";
+import { LINKS_LS_KEY, refreshLinks, saveLinks } from "../lib/Links";
 import {
   CUSTOM_SEARCH_DETAILS_LS_KEY,
   refreshSearch,
   saveCustomSearch,
   saveSearchEngine,
   SEARCH_LS_KEY,
-} from "../Search";
-import { refreshTheme, saveTheme, Theme, THEME_LS_KEY } from "../Theme";
+} from "../lib/Search";
+import { refreshTheme, saveTheme, type Theme, THEME_LS_KEY } from "../lib/Theme";
 import SettingsSection from "./SettingsSection";
 
 export default function initJsonSettings() {

@@ -1,7 +1,7 @@
 import initKeyBinds, { getKeyBinds } from "./KeyBinds";
 import { runClock } from "./Date";
 import initModal from "./Modal";
-import "./styles/style.css";
+import "../styles/style.css";
 import { getTheme, setTheme } from "./Theme";
 import { getImage, setImage } from "./Image";
 import { initSearchBar, getSearch, setSearch } from "./Search";

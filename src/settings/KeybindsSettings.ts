@@ -1,14 +1,14 @@
 import {
-  KeyBind,
+  type KeyBind,
   generateKeybinds,
   refreshKeybinds,
   saveKeybinds,
   getKeyBinds,
   KEYBINDS_LS_KEY,
-} from "../KeyBinds";
-import { getLinks } from "../Links";
+} from "../lib/KeyBinds";
+import { getLinks } from "../lib/Links";
 import { SettingsSectionWithChildren } from "./SettingsSection";
-import { Component } from "./settingsTypes";
+import { type Component } from "./settingsTypes";
 
 export default function initKeybindsSettings(keybinds: KeyBind) {
   const keybindSection = new SettingsSectionWithChildren({

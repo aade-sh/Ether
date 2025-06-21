@@ -4,10 +4,10 @@ import initKeybindsSettings from "./KeybindsSettings";
 import initImageSettings from "./ImageSettings";
 import initJsonSettings from "./JsonSettings";
 import initSearchSettings from "./SearchSettings";
-import { InitSettingsProps } from "../Modal";
+import { type InitSettingsProps } from "../lib/Modal";
 import "../styles/settings.css";
 import initLinkButtons from "./LinkButtons";
-import { getCustomSearchDetails } from "../Search";
+import { getCustomSearchDetails } from "../lib/Search";
 
 export default function init({
   links,

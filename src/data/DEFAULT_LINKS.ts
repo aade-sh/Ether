@@ -1,4 +1,4 @@
-import { LinkGroup, AllLinkGroups } from "../Links";
+import { LinkGroup, type AllLinkGroups } from "../lib/Links";
 import { EMPTY_ITEM } from "./CONSTANTS";
 
 const SOCIAL_LINKS: LinkGroup = {

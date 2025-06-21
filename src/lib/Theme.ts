@@ -1,4 +1,4 @@
-import { convertCssRgbToHex, hexToRgb } from "./utils/colors";
+import { convertCssRgbToHex, hexToRgb } from "../utils/colors";
 import { z } from "zod";
 
 export const THEME_LS_KEY = "theme";

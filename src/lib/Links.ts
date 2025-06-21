@@ -1,6 +1,6 @@
 import { z } from "zod";
-import { EMPTY_ITEM } from "./data/CONSTANTS";
-import { DEFAULT_LINKS } from "./data/DEFAULT_LINKS";
+import { EMPTY_ITEM } from "../data/CONSTANTS";
+import { DEFAULT_LINKS } from "../data/DEFAULT_LINKS";
 import DomRender from "./DomRender";
 
 export const LINKS_LS_KEY = "links";

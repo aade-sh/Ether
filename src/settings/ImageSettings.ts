@@ -1,13 +1,13 @@
-import { Optional } from "../../types/types";
+import { type Optional } from "../types/types";
 import {
-  ImageState,
+  type ImageState,
   IMAGE_LS_KEY,
   refreshImage,
   saveImageState,
-} from "../Image";
+} from "../lib/Image";
 import InputGroup from "./InputGroup";
 import { SettingsSectionWithChildren } from "./SettingsSection";
-import { Component } from "./settingsTypes";
+import { type Component } from "./settingsTypes";
 
 export default function initImageSettings(imageState: ImageState) {
   const imageSection = new SettingsSectionWithChildren<ImageState>({

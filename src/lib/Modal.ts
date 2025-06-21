@@ -1,8 +1,8 @@
-import { AllLinkGroups } from "./Links";
-import { Theme } from "./Theme";
-import { StringKeyObj } from "./../types/interfaces";
-import { ImageState } from "./Image";
-import { SearchEngine } from "./Search";
+import { type AllLinkGroups } from "./Links";
+import { type Theme } from "./Theme";
+import { type StringKeyObj } from "../types/interfaces";
+import { type ImageState } from "./Image";
+import { type SearchEngine } from "./Search";
 
 export type InitSettingsProps = {
   links: AllLinkGroups;
@@ -41,7 +41,7 @@ export default function init(props: InitSettingsProps) {
   settingsBtn?.addEventListener("click", async () => {
     openSettingsModal();
     if (firstOpen) {
-      const { default: initSettings } = await import("./settings/Settings");
+      const { default: initSettings } = await import("../settings/Settings");
       initSettings(props);
       firstOpen = false;
     }

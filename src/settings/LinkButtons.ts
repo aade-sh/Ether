@@ -1,5 +1,5 @@
-import DomRender from "../DomRender";
-import LocalStorage from "../LocalStorage";
+import DomRender from "../lib/DomRender";
+import LocalStorage from "../lib/LocalStorage";
 
 const confirmModal = document.getElementById(
   "confirm-modal"

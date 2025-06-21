@@ -1,8 +1,8 @@
 import { z } from "zod";
-import { StringKeyObj } from "../types/interfaces";
-import { EMPTY_ITEM } from "./data/CONSTANTS";
-import { DEFAULT_LINKS } from "./data/DEFAULT_LINKS";
-import { AllLinkGroups } from "./Links";
+import { type StringKeyObj } from "../types/interfaces";
+import { EMPTY_ITEM } from "../data/CONSTANTS";
+import { DEFAULT_LINKS } from "../data/DEFAULT_LINKS";
+import { type AllLinkGroups } from "./Links";
 
 export const KEYBINDS_LS_KEY = "keybinds";
 

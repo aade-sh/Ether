@@ -1,8 +1,8 @@
 import { ZodError } from "zod";
-import { StringKeyObj } from "../../types/interfaces";
-import DomRender from "../DomRender";
+import { type StringKeyObj } from "../types/interfaces";
+import DomRender from "../lib/DomRender";
 import { isArrayofObjects, isObject, trimKeyValues } from "../utils/helpers";
-import { Component, StatefulComponent } from "./settingsTypes";
+import { type Component, type StatefulComponent } from "./settingsTypes";
 
 type SettingsSectionProps<T> = {
   title: string;
